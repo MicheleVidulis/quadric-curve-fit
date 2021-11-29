@@ -73,7 +73,7 @@ def ellipsoid_to_sphere(Q):
         tr = np.dot(v,np.dot(eigen_val_matrix,v_inv))
         return [tr,[xcenter,ycenter,zcenter]]
     else:
-        print "not real ellipsoid"
+        print("not real ellipsoid")
         return
 
 
